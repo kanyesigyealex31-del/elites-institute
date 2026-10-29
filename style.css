@@ -1,0 +1,126 @@
+/*======================================
+GENERAL PAGE
+=======================================*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 30PX;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111;
+}
+/*=========================================
+MAIN POSTER
+==========================================*/
+.poster{
+    width: 900px;
+    margin: auto;
+    box-shadow: 0 0 20px;
+    background: white;
+}
+/*==========================================
+HEADER
+=======================================*/
+.header{
+    display: flex;
+    min-height: 180px;
+    color: white;
+    background: rgb(27, 27, 75);
+    
+
+}
+/*LOGO*/
+.logo{
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+.logo img{
+    width: 145px;
+    height: 145px;
+    object-fit: contain;
+}
+/*HEADER TEXT*/
+.header-content{
+    flex: 1;
+    padding: 25px 20px;
+}
+.header-content h1{
+    margin: 0 0 15px 0;
+    font-size: 27px;
+}
+/*ACCREDITED BOX*/
+.accreditation{
+    padding: 12px 15px;
+    background: purple;
+    border-radius: 15px;
+}
+.accreditation p{
+    margin: 5px 0;
+    font-size: 13px;
+}
+/*FEES TITLE*/
+.fee-title{
+    text-align: center;
+    background: white;
+    padding: 8px;
+    font-size: 8px solid red;
+}
+/*TABLE*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+/*TABLE HEADINGS*/
+th{
+    background: green;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+/*TABLE CELLS*/
+td{
+    padding: 7px 8px;
+    font-size: 15px;
+    border-bottom: none;
+    margin-right: 25px;
+}
+/*COLUN WIDTH*/
+td:first-child{
+    width: 50%;
+}
+td:nth-child(2){
+     width: 15%;
+     text-align: center;
+}
+td:nth-child(3){
+    width: 15%;
+    text-align: center;
+}
+td:nth-child(4){
+    width: 25%;
+    text-align: center;
+}
+/*SCHOOL SECTION*/
+.section{
+    background: rgb(73, 58, 188);
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+/*FOOTER*/
+footer{
+    background: rgba(255, 20, 145, 0.947);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+thead{
+    border-radius: 30px;
+}
